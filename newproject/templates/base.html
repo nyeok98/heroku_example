@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'likelion/css/style.css' %}">
+    <title>Document</title>
+    <div class="nav">
+        <div id="logo">
+            <img src="#" />
+        </div>
+        <li class=nav-items>HOME</li>
+        <li class=nav-items>HISTORY</li>
+        <li class=nav-items>PORTFOLIO</li>
+    </div>
+</head>
+
+<body>
+
+    {% block content %}
+    {% endblock %}
+</body>
+
+</html>
